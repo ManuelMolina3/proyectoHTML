@@ -34,15 +34,17 @@
             color: darkolivegreen;
         }
         .carousel-control-prev{
-            width: 50%;
+          height: 50%;
+          margin-top: 15%;
         }
-        carousel-control-nest{
-            width: 50%;
+        .carousel-control-next{
+          height: 50%;
+          margin-top: 15%;
         }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-red">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-red mb-5">
         <div class="container-fluid">
             <a class="navbar-brand" href="javascript:void(0)"><img src="img/logoBetis.png" alt="Escudo Betis" width="50px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
@@ -67,7 +69,7 @@
             </div>
         </div>
     </nav>
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide overflow-hidden" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
